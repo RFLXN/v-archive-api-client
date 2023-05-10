@@ -7,10 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/RFLXN/v-archive-api-client"
   },
-  "exports": {
-    "require": "./cjs/index.js",
-    "import": "./esm/index.js"
-  },
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
     "build": "tsc"

@@ -2,9 +2,10 @@
 
 [V-ARCHIVE API](https://github.com/djmax-in/openapi)
 
-## Example
+`yarn install https://github.com/RFLXN/v-archive-api-client`
+for using this lib
 
-Run `yarn run build` before use API client.
+## Example
 
 ```typescript
 import vArchiveApi from "./index";
