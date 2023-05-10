@@ -13,7 +13,7 @@
   },
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
-    "prepare": "tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.1.1",
