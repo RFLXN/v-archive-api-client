@@ -13,8 +13,7 @@
   },
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
-    "build": "tsc",
-    "prepare": "yarpm run build"
+    "prepare": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.1.1",
