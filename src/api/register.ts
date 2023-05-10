@@ -40,5 +40,5 @@ const register = async (params: RegisterParams) =>
     );
 
 export {
-    register, RegisterHeader, RegisterBody, RegisterResponse
+    register, RegisterHeader, RegisterBody, RegisterResponse, RegisterParams
 };

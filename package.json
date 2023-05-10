@@ -1,14 +1,22 @@
 {
   "name": "v-archive-api-client",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RFLXN/v-archive-api-client"
+  },
+  "exports": {
+    "require": "./cjs/index.js",
+    "import": "./esm/index.js"
+  },
   "scripts": {
     "lint": "eslint --fix src/**/*.ts",
-    "build": "tsc",
-    "prebuild": "yarpm run lint",
-    "test": "node dist/test.js",
-    "pretest": "yarpm run build"
+    "build:cjs": "tsc --p ./cjs/tsconfig.json",
+    "build:esm": "tsc --p ./esm/tsconfig.json",
+    "build": "yarpm run build:cjs && yarpm run build:esm",
+    "prebuild": "yarpm run lint"
   },
   "devDependencies": {
     "@types/node": "^20.1.1",
