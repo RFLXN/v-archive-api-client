@@ -1,4 +1,4 @@
-import { DjmaxButton, DjmaxShotrenPattern, NumberBoolean } from "../static";
+import { DjmaxButton, DjmaxShortenPattern, NumberBoolean } from "../static";
 import { createUrl, fetch, setPathParam } from "../share";
 
 const PATH = "/api/archive/{nickname}/board/{button}/{board}";
@@ -18,7 +18,7 @@ interface ScoreboardPattern {
     title: number;
     name: string;
     composer: string;
-    pattern: DjmaxShotrenPattern;
+    pattern: DjmaxShortenPattern;
     score?: number;
     maxCombo?: NumberBoolean;
     dlc: string;

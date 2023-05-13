@@ -2,7 +2,7 @@ const ROOT_URL = "https://v-archive.net";
 
 type DjmaxPattern = "NORMAL" | "HARD" | "MAXIMUM" | "SC";
 
-type DjmaxShotrenPattern = "NM" | "HD" | "MX" | "SC";
+type DjmaxShortenPattern = "NM" | "HD" | "MX" | "SC";
 
 type DjmaxButton = 4 | 5 | 6 | 8;
 
@@ -27,5 +27,5 @@ export {
     NumberBoolean,
     AnyHeader,
     DjmaxTier,
-    DjmaxShotrenPattern
+    DjmaxShortenPattern
 };

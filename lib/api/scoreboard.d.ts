@@ -1,4 +1,4 @@
-import { DjmaxButton, DjmaxShotrenPattern, NumberBoolean } from "../static";
+import { DjmaxButton, DjmaxShortenPattern, NumberBoolean } from "../static";
 type Board = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "MX" | "SC" | "SC5" | "SC10" | "SC15";
 interface ScoreboardParams {
     nickname: string;
@@ -9,7 +9,7 @@ interface ScoreboardPattern {
     title: number;
     name: string;
     composer: string;
-    pattern: DjmaxShotrenPattern;
+    pattern: DjmaxShortenPattern;
     score?: number;
     maxCombo?: NumberBoolean;
     dlc: string;
