@@ -8,7 +8,7 @@ for using this lib
 ## Example
 
 ```typescript
-import vArchiveApi from "./index";
+import vArchiveApi from "v-archive-api-client";
 
 const res = await vArchiveApi.scoreboard({
     nickname: "PLAYER_NICKNAME",
